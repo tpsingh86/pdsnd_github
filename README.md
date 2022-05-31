@@ -15,8 +15,8 @@ It contains data for three cities.
 **Credits**
 Various references were used to complete this project 
 
-1. https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+A. https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 
-2. https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/
+B. https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/
 
-3. https://careerfoundry.com/en/blog/web-development/what-is-github/\
+C. https://careerfoundry.com/en/blog/web-development/what-is-github/\
