@@ -164,7 +164,7 @@ def time_stats(df):
 
 #Function to calculate station related statistics
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip.
+    """Displays statistics on The Most Popular Stations & Trip.
     Args:
         tarun1 (df): The data frame you wish to work with.
     Returns:
