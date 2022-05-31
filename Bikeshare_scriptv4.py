@@ -76,6 +76,8 @@ def get_filters():
         print("\nAccepted input:\nDay name; not case sensitive (e.g. friday or FRIDAY).\nDay name  (e.g. Friday).")
         
         sday = input().lower()
+        """ this action will make the input day selection case insensitive"""
+
 
         if sday not in sDAY_LIST:
             print("\nInvalid input. Please try again in one of the accepted input formats.")
@@ -83,6 +85,7 @@ def get_filters():
 
     print(f"\nYou have chosen {sday.title()} as your day.")
     print(f"\nYou have chosen to view data for city: {scity.upper()}, month/s: {smonth.upper()} and day/s: {sday.upper()}.")
+    print(f"\nProceed to next step for detailed analysis based on your inputs.")
     print('-'*80)
     #Returning all selections
     return scity, smonth, sday
@@ -162,7 +165,7 @@ def time_stats(df):
 
 #Function to calculate station related statistics
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip.
+    """Displays statistics on The Most Popular Stations & Trip.
     Args:
         tarun1 (df): The data frame you wish to work with.
     Returns:
