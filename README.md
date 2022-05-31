@@ -20,3 +20,6 @@ A. https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 B. https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/
 
 C. https://careerfoundry.com/en/blog/web-development/what-is-github/\
+
+D. https://reflectoring.io/github-fork-and-pull/
+
