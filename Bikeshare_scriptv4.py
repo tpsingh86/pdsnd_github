@@ -30,9 +30,9 @@ def get_filters():
     Args:
         None.
     Returns:
-        str (city): city name 
-        str (month): name of the month 
-        str (day): name of the day of week
+        string (city): city name 
+        string (month): name of the month 
+        string (day): name of the day of week
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     #Initializing an empty city variable to store city choice from user
