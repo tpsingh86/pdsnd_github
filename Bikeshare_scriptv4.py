@@ -76,6 +76,8 @@ def get_filters():
         print("\nAccepted input:\nDay name; not case sensitive (e.g. friday or FRIDAY).\nDay name  (e.g. Friday).")
         
         sday = input().lower()
+        """ this action will make the input day selection case insensitive"""
+
 
         if sday not in sDAY_LIST:
             print("\nInvalid input. Please try again in one of the accepted input formats.")
