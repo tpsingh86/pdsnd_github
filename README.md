@@ -3,7 +3,7 @@
 **Date created**
 The project was created on May 28th 2022
 **Project Title**
-Project Udacity nano degree assignment
+Project 3 Github 
 **Description**
 This Python script is written for 2nd project of term 1 of Udacity's Data Analyst Nanodegree course, and is utilized to analyse data related to bike share systems in the United States. It imports data from three csv files and calculates the essential statistics from the data. It also takes in users' raw input to create an interactive experience in the terminal to present these statistics.
 **Files used**
