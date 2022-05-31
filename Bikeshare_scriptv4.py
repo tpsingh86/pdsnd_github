@@ -14,7 +14,7 @@ import numpy as np
 
 
 
-sCITY_DATA = { 'chicago': r'/Users/keeratkaur/Downloads/all-project-files/chicago.csv', 'Chicago': r'/Users/keeratkaur/Downloads/all-project-files/chicago.csv',
+aCITY_DATA = { 'chicago': r'/Users/keeratkaur/Downloads/all-project-files/chicago.csv', 'Chicago': r'/Users/keeratkaur/Downloads/all-project-files/chicago.csv',
              'New York City': r'/Users/keeratkaur/Downloads/all-project-files/new_york_city.csv', 'New york city': r'/Users/keeratkaur/Downloads/all-project-files/new_york_city.csv',
               'new york city': r'/Users/keeratkaur/Downloads/all-project-files/new_york_city.csv', 'washington': r'/Users/keeratkaur/Downloads/all-project-files/washington.csv',
              'Washington': r'/Users/keeratkaur/Downloads/all-project-files/washington.csv' }
@@ -39,14 +39,14 @@ def get_filters():
     #You will see this repeat throughout the program
     scity = ''
 
-    while scity not in sCITY_DATA.keys():
+    while scity not in aCITY_DATA.keys():
         print("\nWelcome. Please choose your city:")
         print("\n1. Chicago 2. New York City 3. Washington")
        
         
         scity = input().lower()
 
-        if scity not in sCITY_DATA.keys():
+        if scity not in aCITY_DATA.keys():
             print("\nPlease check your input, it's a invalid format.")
             print("\nRestarting...")
 
@@ -103,7 +103,7 @@ def load_data(scity, smonth, sday):
     """
     #Load data for city
     print("\nLoading data...")
-    df = pd.read_csv(sCITY_DATA[scity])
+    df = pd.read_csv(aCITY_DATA[scity])
 
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
